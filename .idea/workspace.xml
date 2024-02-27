@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="added customer name and hotela name to ticket linked them to main">
+    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="added fpdf to articles">
+      <change afterPath="$PROJECT_DIR$/card_security.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cards.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hotels.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.05 main.executor": "Run",
     "Python.articles.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
@@ -42,7 +45,29 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.articles">
+  <component name="RunManager" selected="Python.05 main">
+    <configuration name="05 main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hotel_booking" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05 main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="articles" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hotel_booking" />
       <option name="ENV_FILES" value="" />
@@ -111,8 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.articles" />
+        <item itemvalue="Python.05 main" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.articles" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +190,33 @@
       <option name="project" value="LOCAL" />
       <updated>1708733149343</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added fpdf to articles">
+      <option name="closed" value="true" />
+      <created>1708965009796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708965009796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="hotel updated" />
     <MESSAGE value="added customer name and hotela name to ticket linked them to main" />
-    <option name="LAST_COMMIT_MESSAGE" value="added customer name and hotela name to ticket linked them to main" />
+    <MESSAGE value="added fpdf to articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fpdf to articles" />
   </component>
 </project>
