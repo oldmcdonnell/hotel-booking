@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="added SPA option">
+    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="classes infomration on class properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hotels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709139654673</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="classes infomration on class properties">
+      <option name="closed" value="true" />
+      <created>1709191944470</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191944470</updated>
+    </task>
+    <task id="LOCAL-00009" summary="classes infomration on class properties">
+      <option name="closed" value="true" />
+      <created>1709191973093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191973093</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +273,7 @@
     <MESSAGE value="added fpdf to articles" />
     <MESSAGE value="added credit card instances" />
     <MESSAGE value="added SPA option" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SPA option" />
+    <MESSAGE value="classes infomration on class properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes infomration on class properties" />
   </component>
 </project>
