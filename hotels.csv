@@ -1,10 +1,10 @@
 id,name,city,capacity,available
-134,Tourist Sunny Apartment,Anchorage,4,no
-188,Snow Palace,New Delhi,5,no
-655,City Break Inn,Porto-Novo,3,yes
-231,Half Price Hotel,Dublin,25,yes
-358,Sunrise Motel,New York,60,yes
-420,Highrise Hotel,Minneapolis,3,yes
+134,Tourist Sunny Apartment,Anchorage,4.0,no
+188,Snow Palace,New Delhi,5.0,no
+655,City Break Inn,Porto-Novo,3.0,yes
+231,Half Price Hotel,Dublin,25.0,yes
+358,Sunrise Motel,New York,60.0,yes
+420,Highrise Hotel,Minneapolis,3.0,no
 115,Roach Motel,Vice City,,yes
 207,Flaming in ,Asaraka City,,yes
 289,Hotel California,Soeul,,yes
