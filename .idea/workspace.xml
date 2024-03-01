@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="classes infomration on class properties">
+    <list default="true" id="b09ec9ab-857f-4536-9d65-aef50be217da" name="Changes" comment="class property">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hotels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main2">
+  <component name="RunManager" selected="Python.main">
     <configuration name="05 main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="hotel_booking" />
       <option name="ENV_FILES" value="" />
@@ -252,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709191973093</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="class property">
+      <option name="closed" value="true" />
+      <created>1709239583691</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709239583691</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +284,7 @@
     <MESSAGE value="added credit card instances" />
     <MESSAGE value="added SPA option" />
     <MESSAGE value="classes infomration on class properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes infomration on class properties" />
+    <MESSAGE value="class property" />
+    <option name="LAST_COMMIT_MESSAGE" value="class property" />
   </component>
 </project>

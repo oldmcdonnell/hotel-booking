@@ -1,4 +1,5 @@
 import pandas
+from abc import ABC, abstractmethod
 
 df = pandas.read_csv("hotels.csv", dtype={"id": str})
 
@@ -27,7 +28,24 @@ class Hotel:
     def get_hotel_count(cls, data):
         return len(data)
 
-class ReservationTicket:
+    def __eq__(self, other):
+        if self.hotel_id == other.hotel_id:
+            return True
+        else:
+            return False
+
+    def __add__(self, other):
+        total = self.price + other.price
+        return
+
+#abstract class
+class Ticket(ABC):
+
+    def generate(self):
+        pass
+
+
+class ReservationTicket(Ticket):
     def __init__(self, customer_name, hotel_object):
         self.customer_name = customer_name
         self.hotel = hotel_object
@@ -47,23 +65,13 @@ class ReservationTicket:
         name = name.title()
         return name
 
-hotel1 = Hotel(hotel_id="420")
-hotel2 = Hotel(hotel_id="188")
-
-#name is an instanse cariable
-print(hotel1.name)
-print(hotel2.name)
+    @staticmethod
+    def convert(amount):
+        return amount * 1.2
 
 
-print(Hotel.watermark)
-print(hotel1.available())
-print(hotel1.book())
-
-print(Hotel.get_hotel_count(data=df))
-
-print(hotel1.get_hotel_count(data=df))
-
-ticket = ReservationTicket(customer_name="donal mcgee", hotel_object=hotel1)
-print(ticket.the_customer_name)
-
-print(ticket.generate())
+class DigitalTicket(Ticket):
+    def generate(self):
+        return  "hell this is your digital ticket "
+    def download(self):
+        pass
